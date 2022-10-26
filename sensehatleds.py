@@ -136,5 +136,13 @@ def demo():
         display.update()
         time.sleep(0.1)
 
+
+def clear():
+    i2c = board.I2C()
+    display = LEDMatrix(i2c)
+    display.clear()
+    display.update()
+
+
 if __name__ == "__main__":
     demo()
