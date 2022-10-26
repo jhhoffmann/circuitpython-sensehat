@@ -11,4 +11,5 @@ More detailed descriptions of how these tests work can be found on
     sudo apt install python3-venv
     python3 -mvenv adafruit
     . adafruit/bin/activate
+    pip install wheel
     pip install -r requirements.txt
